@@ -5,21 +5,31 @@ h1 {
     font-size: 100px;
     font-weight: bolder;
     text-align: center;
+    width: fit-content;
+    margin: auto;
 }
 
-.list,
+ul,
+ol,
 li {
-    background-color: rgb(64, 0, 66);
-    color: rgb(255, 255, 255);
+    background-color: rgb(241, 213, 213);
+    color: rgb(0, 0, 0);
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
     font-size: 25px;
     font-weight: 550;
+    margin: 0px 16px;
+    padding: 8px;
+    width: fit-content;
+}
+
+.main-list {
+    margin: 100px auto;
 }
 
 a:visited,
 a {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 body {
@@ -30,30 +40,45 @@ body {
     background-color: yellow;
     color: red;
     font-weight: 900;
+    width: fit-content;
 }
 
-ol{
-    background-color: black;
+ol {
+    background-color: rgb(241, 213, 213);
 }
 
-h3{
+h3 {
     font-size: xx-large;
     color: brown;
 }
 
-.div-class .practice-child{
-    transform: rotate(180deg);
+.practice-child {
+    display: block;
+    padding: 8px;
 }
 
-.test{
+.test {
     font-style: italic;
 }
 
-.test-test{
+.test-test {
     font-style: oblique;
 }
 
-.test.test-test{
+.test.test-test {
     font-style: normal;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+img {
+    height: 310px;
+    width: auto;
+}
+
+.main-div {
+    border: 40px solid red;
+    display: border-box;
+    background-color: aqua;
+    margin: 16px auto;
+    width: 920px;
 }
